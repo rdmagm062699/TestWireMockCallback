@@ -108,9 +108,12 @@ namespace AcceptanceTests.Features
             {
                 this.ScenarioStart();
 #line 4
-        testRunner.Given("This thing happens", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+        testRunner.Given("The mock is set up", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 5
+        testRunner.When("The program is run", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 6
         testRunner.Then("This is the result", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
