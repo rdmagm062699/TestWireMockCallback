@@ -1,0 +1,6 @@
+version: "3"
+services:
+    acceptance_tests:
+        build: .
+        image: testwiremockcallback_tests
+        container_name: testwiremockcallback_tests
